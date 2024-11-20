@@ -13,6 +13,11 @@ const router = createRouter({
       name: 'leaflet',
       component: () => import('@/views/leaflet/index.vue'),
     },
+    {
+      path: '/mapbox',
+      name: 'mapbox',
+      component: () => import('@/views/mapbox/index.vue'),
+    },
   ],
 });
 
