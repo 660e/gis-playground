@@ -8,6 +8,11 @@ const router = createRouter({
       name: 'home',
       component: () => import('@/views/home.vue'),
     },
+    {
+      path: '/leaflet',
+      name: 'leaflet',
+      component: () => import('@/views/leaflet/index.vue'),
+    },
   ],
 });
 
