@@ -13,6 +13,8 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@antv/l7": "^2.22.3",
+    "@antv/l7-maps": "^2.22.3",
     "@vueuse/core": "^11.2.0",
     "dayjs": "^1.11.13",
     "leaflet": "^1.9.4",

@@ -9,6 +9,11 @@ const router = createRouter({
       component: () => import('@/views/home.vue'),
     },
     {
+      path: '/l7',
+      name: 'l7',
+      component: () => import('@/views/l7/index.vue'),
+    },
+    {
       path: '/leaflet',
       name: 'leaflet',
       component: () => import('@/views/leaflet/index.vue'),
