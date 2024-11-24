@@ -5,22 +5,18 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
       component: () => import('@/views/home.vue'),
     },
     {
       path: '/l7',
-      name: 'l7',
       component: () => import('@/views/l7/index.vue'),
     },
     {
       path: '/leaflet',
-      name: 'leaflet',
       component: () => import('@/views/leaflet/index.vue'),
     },
     {
       path: '/mapbox',
-      name: 'mapbox',
       component: () => import('@/views/mapbox/index.vue'),
     },
   ],
